@@ -27,13 +27,8 @@ public class Main {
 			acc.addAccount(person);
 			System.out.println("Congratulations your account is created!");
 			System.out.println("Your full name : " + person.getFullName());
-			System.out.println("Your acc number : " + person.getAccountNo());
-			
-		} else if (option == 2) {
+			System.out.println("Your account number : " + person.getAccountNo());
 
-			System.out.println("Enter your account number : ");
-			int match = input.nextInt();
-			//Figure how to match accNumber with user input...
 		}
 
 		else {
